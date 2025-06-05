@@ -1,0 +1,36 @@
+.header {
+    background-color: #457ecd; /* Цвет фона */
+    color: white; /* Цвет текста */
+    padding: 10px 20px; /* Отступы */
+    position: fixed; /* Фиксированное положение */
+    width: 100%; /* Полная ширина */
+    top: 0; /* Вверху страницы */
+    display: flex; /* Flexbox для выравнивания */
+    justify-content: space-between; /* Пространство между элементами */
+    align-items: center; /* Вертикальное выравнивание */
+    z-index: 1000; /* Убедитесь, что заголовок поверх других элементов */
+}
+
+.logo-link {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: white; /* Цвет текста логотипа */
+    font-size: 24px; /* Размер шрифта */
+}
+
+.nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    display: flex; /* Горизонтальное расположение ссылок */
+    gap: 20px; /* Промежуток между ссылками */
+}
+
+.nav a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: white; /* Цвет текста */
+    transition: color 0.3s; /* Плавный переход цвета */
+    font-size: 20px; /* Размер шрифта */
+    padding: 20px;
+}
+
+.nav a:hover {
+    color: #4cacc7; /* Цвет при наведении */
+}
